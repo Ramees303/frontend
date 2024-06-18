@@ -2,11 +2,11 @@ FROM node:14-alpine
 
 WORKDIR  /app
 
-COPY package.json .
+COPY react-frontend/package.json .
 
 RUN npm install
 
-COPY . .
+COPY react-frontend .
 
 #EXPOSE 3000
 
