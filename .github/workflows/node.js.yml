@@ -45,4 +45,4 @@ jobs:
           context: .
           file: ./react-frontend/Dockerfile
           push: true
-          tags: ramzworks/demoapp:latest
+          tags: ramzworks/frontend:latest
