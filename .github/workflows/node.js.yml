@@ -27,8 +27,8 @@ jobs:
 
       - name: Install frontend dependencies
         run: npm ci
-        working-directory: ./frontend
+        working-directory: react-frontend/package.json
 
       - name: Build frontend
         run: npm run build
-        working-directory: ./frontend
+        working-directory: react-frontend
